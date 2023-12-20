@@ -42,7 +42,7 @@ We proposed pathological images with corresponding masks. You can use image-and-
     		...
 ```
 You can reorganize directory structure for fiting your project(s).
-We encourage you to open your codes and evaluated results, which can effiectively improve development of CAD methods in pathological diagnosis. Meanwhile, due to our restricted developing platform and capacity, we encourage developers to optimize compared methods and open evaluated results. Thank you.
+We encourage you to open your codes and evaluated results, which can effiectively improve development of CAD methods in pathological diagnosis. Meanwhile, due to our restricted developing platform and capacity, we could not full to explore capacites of compared methods on BIS5k. Therefore, we encourage developers to optimize compared methods and open evaluated results. Thank you.
 ## Evaluated Toolkit
 This toolkit was improved from Polyp Segmentation Task (UACANet) and could calculate variou metrics (including: dice, iou, and wFm etc). You should put your segmentation results into `./BIS5K_results`, and then change the configs in `./configs/BCSNet.yaml`. Runing the `./Eval.py` to calculate evaluated results.
 
